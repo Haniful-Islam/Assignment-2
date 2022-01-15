@@ -97,6 +97,19 @@ h1{
 }
 /* ============Top Section End========== */
 
+/* ===========Logos section start========= */
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border-top: 2px solid #e0e0e69f;
+    border-bottom: 2px solid #e0e0e69f;
+    padding:35px 0;
+   
+}
+
+/* ===========Logos section End========== */
+
 /* ========Column Section Start =========*/
 
 .collection-title{
@@ -254,6 +267,13 @@ h1{
         display:block;
         margin:0 auto;
     } 
+    .logos{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 25px;
+    }
+    .logos img{
+        margin-top:20px;
+    }
     .column-wrapper{
         grid-template-columns: auto;  
         place-items: center;
@@ -280,6 +300,14 @@ h1{
     }
     .gallery{
         grid-template-columns: 1fr 1fr;
+    }
+    .logos{
+        grid-template-columns: repeat(3,1fr);
+        margin-left:50px;
+        
+    }
+     .logos img{
+        margin:20px;
     }
     
 }
