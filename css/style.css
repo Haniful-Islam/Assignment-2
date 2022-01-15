@@ -149,13 +149,13 @@ h1{
     font-size:18px;
     font-weight: bold;
 }
-.filled{
+.fa-star{
     color: #FB8200;
-    font-size:12px
+    font-size:12px;
 }   
-.half-emty{
+.fa-star-half-alt{
     color: #FB8200;
-    font-size:12px
+    font-size:12px;
 }
 .see-more-button{
     color:#E02C6D;
