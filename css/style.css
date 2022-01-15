@@ -269,10 +269,10 @@ h1{
     } 
     .logos{
         grid-template-columns: repeat(2,1fr);
-        margin-left: 25px;
+        justify-content: center;
     }
     .logos img{
-        margin-top:20px;
+        margin-top:25px;
     }
     .column-wrapper{
         grid-template-columns: auto;  
@@ -303,11 +303,12 @@ h1{
     }
     .logos{
         grid-template-columns: repeat(3,1fr);
-        margin-left:50px;
+        /* margin-left:50px; */
+        justify-content: center;
         
     }
      .logos img{
-        margin-top:20px;
+        margin-top:25px;
     }
     
 }
